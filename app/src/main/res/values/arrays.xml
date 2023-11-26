@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="example_one">
+        <item>China Representative:Ntebogeng</item>
+        <item>Africa Representative:Shane</item>
+        <item>Russia Representative:Itu</item>
+        <item>Iran Representative:Othello</item>
+        <item>Brazil Representative:Kabelo</item>
+    </string-array>
+</resources>

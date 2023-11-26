@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/tree"
+tools:context=".MainActivity5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/lavender"
+        android:backgroundTint="@color/lavender"
+        app:cardBackgroundColor="@color/lavender"
+        app:cardCornerRadius="250dp"
+        app:cardElevation="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tree"
+            android:scrollbarFadeDuration="@integer/material_motion_duration_medium_1"
+            android:orientation="vertical"
+            android:padding="75dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Garden of Eden"
+                android:textAlignment="center"
+                android:textColor="@color/tab_indicator"
+                android:textSize="39sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#535353"
+                android:text="Login"
+                android:textColorHint="#ED6363"
+                android:textColorLink="#CA3232"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="#DF8615" />
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#555555"
+                android:text="Register"
+                android:textColorHint="#838080"
+                android:textColorLink="#9049A3"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="#207EAC" />
+
+            <TextView
+                android:id="@+id/slogan"
+                style="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="9dp"
+                android:text="      king of peace \nAll T's and C's apply"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

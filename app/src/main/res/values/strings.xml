@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UploadTest</string>
+    <string name="select_file">Select your file from storage. You can only select PDF file</string>
+    <string name="twice_select">Click twice to select the file</string>
+    <string name="upload_file">Upload file</string>
+    <string name="retrieve_files">Retrieve PDF Files</string>
+    <string name="pdf_file_name">pdf file name</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="600dp"
+    android:layout_height="wrap_content"
+    android:elevation="50dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_recyclerView_id"
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvfirstname_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_recyclerView_id"
+            android:layout_marginTop="30dp"
+            android:text="Full name"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/description_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvfirstname_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text="where you want to serve"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/experience_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text="Talent"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/extra_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/experience_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text="Extra"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/city_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/extra_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text="City"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/salary_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text=" Monthly tithe"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/skill_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/salary_recyclerview_id"
+            android:layout_marginTop="30dp"
+            android:text="what can you do for the church"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>
